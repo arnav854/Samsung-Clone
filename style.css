@@ -1,0 +1,1194 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.samsung {
+    height: 100vh;
+    width: 100vw;
+
+
+}
+
+.navbar {
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.allnavcontents {
+    height: 12vh;
+    min-width: min(94vw, 1800px);
+    display: flex;
+    align-items: center;
+
+}
+
+.naav button {
+    height: 10vh;
+    width: 8vw;
+    background-color: white;
+    border: none;
+}
+
+.naav img {
+    height: 14vh;
+    width: 8vw;
+}
+
+.bet {
+    margin: 0 6vw 0 4vw;
+}
+
+.bet button {
+    padding: 0.3vw;
+    font-size: small;
+    font-weight: 600;
+    margin: 0 0.2vw 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border: none;
+}
+
+.bet button:hover {
+    background-color: black;
+    color: white;
+    border-radius: 1.6vw;
+    padding: 0.6vw;
+}
+
+.support {
+    margin: 0 1.8vw 0 0;
+}
+
+.support button:hover {
+    background-color: black;
+    color: white;
+    border-radius: 1.6vw;
+    padding: 0.6vw;
+}
+
+.support button {
+    padding: 0.3vw;
+    font-size: small;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border: none;
+}
+
+.search img {
+    height: 4vh;
+    width: 2vw;
+}
+
+.search button {
+    margin: 0 0.9vw 0 0;
+    background-color: white;
+    border: none;
+}
+
+
+.main {
+    height: 100vh;
+    min-width: min(90vw, 1440px);
+    display: flex;
+    justify-content: center;
+    /* Horizontally centers the .videoimages */
+    /* Vertically centers the .videoimages */
+}
+
+
+.videoimages {
+    height: 75vh;
+    min-width: min(90vw, 1440px);
+}
+
+.vid {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr;
+    height:90vh;
+    min-width: min(90vw, 1440px);
+    align-items: center;
+    justify-self: center;
+
+}
+.vidreal h1{
+margin: 0 0 2vh 0;
+}
+.buttonbyunow{
+    margin: 4vh 0 0 0;
+    }
+.buttonbyunow button{
+    margin: 0 0 0 1vw;
+    padding: 0.8vh 0.9vw 0.8vh 0.9vw;
+    border-radius: 1vw;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    }
+.vid video{
+    position: absolute;
+    z-index: -1;
+}
+
+.weekhighlights {
+    height: 110vh;
+    margin:  0 0 0 0;
+    min-width: min(90vw, 1440px)
+
+}
+
+.navbarweek {
+    height: 15vh;
+    min-width: min(90vw, 1440px);
+
+}
+
+.thisweek {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh 0 2vh 0;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thisweekbelow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6vh 0 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.thisweekbelow button {
+    margin: 0 2vw 0 0;
+    font-size: larger;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.news {
+    text-decoration: underline;
+    background-color: #f0ecec91;
+}
+
+.alls:hover {
+    color: gray;
+}
+
+.weekphotos {
+    height: 95vh;
+    min-width: min(90vw, 1440px);
+    display: grid;
+    grid-template-columns: 1fr 0.05fr 1fr;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.galaxys24series {
+    display: grid;
+    grid-template-rows: 0.2fr 3fr 0.2fr 1fr;
+    background-color: rgb(243 243 243);
+
+    border-radius: 1.3vw;
+
+}
+
+.sale button {
+    background-color: red;
+    border: 1px solid rgb(214, 214, 214);
+    color: white;
+    font-weight: bolder;
+    border-radius: 5vw;
+    padding: 0.3vh 0.3vw 0.3vw 0.3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.gpic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243 243 243);
+}
+.sale{
+    background-color: rgb(243 243 243);
+
+}
+
+.gpic button {
+    background-color: #f0ecec91;
+
+    border: none;
+}
+
+.gpic img {
+    width: 25vw;
+    height: 60vh;
+    background-color: rgb(243 243 243);
+}
+
+.gprice {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: rgb(243 243 243);
+
+
+}
+
+.blank1 {
+    border: none;
+    height: 2vh;
+    background-color: white;
+}
+
+.midprice h2 {
+    padding: 0.5vh 0 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.midprice p {
+    padding: 1vh 0 0 0;
+    margin: 0 0 0 -2.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.manymore {
+    display: grid;
+    grid-template-columns: 1fr 0.08fr 1fr;
+    grid-template-rows: 1fr 0.08fr 1fr;
+}
+
+.galaxyS10 {
+    display: grid;
+    grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;
+    background-color: rgb(243 243 243);
+
+    border-radius: 1.2vw;
+
+}
+
+.galaxybuttons {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    border: none;
+}
+
+.galaxybuttons img {
+    height: 25vh;
+    width: 20vw;
+}
+
+.nameS10 {
+    display: flex;
+    justify-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.priceS10 {
+    display: flex;
+    justify-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+
+.mobileAI {
+    height: 110vh;
+    margin: 5vh 0 0 0;
+    /* background-image: url("https://images.samsung.com/is/image/samsung/assets/in/home/QN800D-12.jpg?$LazyLoad_Home_JPG"); */
+
+
+}
+
+.tand {
+    background-image: url("https://images.samsung.com/is/image/samsung/assets/in/home/QN800D-12.jpg?$LazyLoad_Home_JPG");
+    background-repeat: no-repeat;
+background-position: center;
+
+
+}
+
+.AInav {
+    height: 20vh;
+    display: grid;
+    grid-template-rows: 1.9fr 1.1fr;
+    background-color: #f0ecec91;
+}
+
+.mobiles {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.navm {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.navm button {
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    
+}
+
+
+.navm:hover {
+    color: gray;
+}
+
+.navm button {
+    margin: 0 2vw 0 0;
+    font-size: large;
+    font-weight: 600;
+    background-color: #f0ecec91;
+}
+
+.AImain {
+    height: 75vh;
+    display: grid;
+    grid-template-rows: 1.2fr 6fr 1.2fr;
+
+    /* background-color: rgb(238, 234, 234); */
+}
+
+.machine {
+ 
+    background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/241113/1440x810-WW90T504DAN1TL.jpg?$1440_810_JPG$);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+.real {
+    background-color: #f0ecec91;
+
+
+}
+
+.aihere {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(251, 251, 251); */
+}
+
+.aiherepic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(251, 251, 251); */
+
+}
+
+.aiherepic img {
+    height: 55vh;
+    width: 35vw;
+
+}
+
+.ainame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ailast {
+    height: 15vh;
+    display: grid;
+    grid-template-rows: 1.2fr 1.2fr 3fr;
+    background-color: #f0ecec91;
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p0 {
+    margin: 0 1vw 0 0;
+    padding: 0.4vw;
+    background-color: #f0ecec91;
+    border: none;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.p- {
+    margin: 0 0 0 1vw;
+    padding: 0.8vh 0.9vw 0.8vh 0.9vw;
+    border-radius: 1vw;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+.tvav {
+    height: 110vh;
+    border: 2px solid magenta;
+    margin-top: 5vh;
+}
+
+.products {
+    height: 100vh;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 0.8fr 3fr;
+}
+
+.recommend {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-size: larger;
+    
+}
+.recommend h1{
+    font-weight: 700;
+}
+.see {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.1fr 1fr 0.1fr 1fr 0.1fr 1fr 0.5fr;
+}
+
+.seebut1 {
+    display: grid;
+    grid-template-rows: 1fr 0.25fr 0.25fr 0.20fr 0.15fr 0.15fr;
+    border-radius: 2vw;
+
+    background-color: rgb(251, 251, 251);
+
+
+
+}
+
+.seebut11 {
+    border: none;
+    background-color: rgb(251, 251, 251);
+}
+
+.bespoke {
+    padding: 1.2vh 0 0 1.4vw;
+}
+
+.colourpick1 {
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+
+}
+
+.colourpick1 p {
+    display: flex;
+    font-size: smaller;
+
+    justify-self: center;
+    align-items: center;
+}
+
+.bold1 {
+    font-weight: 600;
+    font-size: small;
+}
+
+.choosecolor1 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    accent-color: black;
+
+}
+
+.actualprice1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.actualprice1 a {
+    color: rgba(5, 5, 255, 0.848);
+
+    font-size: small;
+}
+
+.seeprice1 p {
+    font-size: small;
+}
+
+.wrong1 {
+    text-decoration: line-through;
+}
+
+.blue1 {
+    color: rgba(70, 104, 255, 0.882);
+    font-weight: 700;
+}
+
+.seebuy1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seebuy1 button {
+    color: white;
+    padding: 1vh 5vw 1vh 5vw;
+    font-weight: 600;
+    border-radius: 2vw;
+    background-color: black;
+}
+
+.seebuy1 button:hover {
+
+    background-color: rgb(74, 73, 73);
+}
+
+.seebut2 {
+    display: grid;
+    grid-template-rows: 1fr 0.25fr 0.25fr 0.20fr 0.15fr 0.15fr;
+    background-color: rgb(251, 251, 251);
+    border-radius: 2vw;
+
+}
+
+.seebut22 {
+    background-color: rgb(251, 251, 251);
+    border: none;
+}
+
+.bespoke2 {
+    padding: 1.2vh 0 0 1.4vw;
+}
+
+.seeprice2 p {
+    font-size: small;
+}
+
+.wrong2 {
+    text-decoration: line-through;
+}
+
+.blue2 {
+    color: rgba(70, 104, 255, 0.882);
+    font-weight: 700;
+}
+
+.seebuy2 button:hover {
+
+    background-color: rgb(74, 73, 73);
+}
+
+.actualprice2 a {
+    color: rgba(5, 5, 255, 0.848);
+
+    font-size: small;
+}
+
+.colourpick2 {
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+
+}
+
+.colourpick2 p {
+    display: flex;
+    font-size: smaller;
+
+    justify-self: center;
+    align-items: center;
+}
+
+.bold2 {
+    font-weight: 600;
+    font-size: small;
+}
+
+.choosecolor2 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+}
+
+.choosecolor2 input {
+    margin: 0 0 0 1vw;
+    accent-color: black;
+
+}
+
+.actualprice2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seebuy2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seebuy2 button {
+    background-color: black;
+    color: white;
+    padding: 1vh 5vw 1vh 5vw;
+    border-radius: 2vw;
+    font-weight: 600;
+}
+
+.seebut3 {
+    display: grid;
+    grid-template-rows: 1fr 0.25fr 0.25fr 0.20fr 0.15fr 0.15fr;
+    background-color: rgb(251, 251, 251);
+    border-radius: 2vw;
+
+}
+
+.seebut33 {
+    background-color: rgb(251, 251, 251);
+    border: none;
+}
+
+.bespoke3 {
+    padding: 1.2vh 0 0 1.4vw;
+}
+
+.seeprice3 p {
+    font-size: small;
+}
+
+.wrong3 {
+    text-decoration: line-through;
+}
+
+.blue3 {
+    color: rgba(70, 104, 255, 0.882);
+
+    font-weight:700;
+}
+
+.seebuy3 button:hover {
+
+    background-color: rgb(74, 73, 73);
+}
+
+.actualprice3 a {
+    color: rgba(5, 5, 255, 0.848);
+
+    font-size: small;
+}
+
+.colourpick3 {
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+
+}
+
+.colourpick3 p {
+    display: flex;
+    font-size: smaller;
+
+    justify-self: center;
+    align-items: center;
+}
+
+.bold3 {
+    font-weight: 600;
+    font-size: small;
+}
+
+.choosecolor3 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+}
+
+.choosecolor3 input {
+    margin: 0 0 0 1vw;
+    accent-color: black;
+
+}
+
+.actualprice3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seebuy3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seebuy3 button {
+    background-color: black;
+    color: white;
+    padding: 1vh 5vw 1vh 5vw;
+    border-radius: 2vw;
+    font-weight: 600;
+}
+
+.seebut4 {
+    display: grid;
+    grid-template-rows: 1fr 0.25fr 0.25fr 0.20fr 0.15fr 0.15fr;
+    background-color: rgb(251, 251, 251);
+
+}
+
+.seebut44 {
+    background-color: rgb(251, 251, 251);
+    border-radius: 2vw;
+    border: none;
+}
+
+.bespoke4 {
+    padding: 1.2vh 0 0 1.4vw;
+    border: none;
+}
+
+.colourpick4 {
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+
+}
+
+.seeprice4 p {
+    font-size: small;
+}
+
+.wrong4 {
+    text-decoration: line-through;
+}
+
+.blue4 {
+    color: rgba(70, 104, 255, 0.882);
+
+    font-weight: 700;
+}
+
+.seebuy4 button:hover {
+
+    background-color: rgb(74, 73, 73);
+}
+
+.actualprice4 a {
+    color: rgba(5, 5, 255, 0.848);
+    font-size: small;
+}
+
+.colourpick4 p {
+    display: flex;
+    font-size: smaller;
+
+    justify-self: center;
+    align-items: center
+}
+
+.bold4 {
+    font-weight: 600;
+    font-size: small;
+}
+
+.choosecolor4 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+}
+
+.choosecolor4 input {
+    margin: 0 0 0 1vw;
+    accent-color: black;
+}
+
+.actualprice4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seebuy4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seebuy4 button {
+    background-color: black;
+    color: white;
+    padding: 1vh 5vw 1vh 5vw;
+    border-radius: 2vw;
+    font-weight: 600;
+}
+.explore{
+    margin: 2vh 0 0 0;
+    height: 105vh;
+    display: grid;
+    grid-template-rows: 0.5fr 3fr;
+}
+.explorenav{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.explorenav button{
+    border: none;
+    background-color: white;
+    color: black;
+}
+.explorenav a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+.exploremain{
+    display: grid;
+    grid-template-columns:0.2fr 1.1fr 1fr 0.2fr;
+
+}
+.explorepic{
+
+background-repeat: no-repeat;    background-image: url(co15_half-teasher-list-2_pc_684x684.webp);
+}
+.lookforsomething{
+    margin: 4vh 0 0 0;
+    height: 40vh;
+    display: grid;
+    grid-template-rows: 1.8fr 0.4fr 1fr 1fr ;
+}
+.lookheading{
+  display: flex;
+  justify-self: center;
+  align-items: center;  
+}
+.looksearch{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.box{
+    height: 7vh;
+    width:31vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5vw;
+}
+#site-search{
+    justify-content: center;
+    align-items: center;
+    padding: 1.1vh 0 1.1vh 0vw;
+    width: 24vw;
+    margin: 0 0 0 1vw;
+    font-size: medium;
+    border: none;
+    
+    
+}
+
+.searchicon{
+    display: flex;
+    align-items: center;
+}
+.searchicon img{
+    height: 4vh;
+}
+#site-search :placeholder-shown{
+    display: flex;
+    justify-content: flex-start;
+}
+.searchbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.searchbutton button{
+    background-color: white;
+
+    margin: 0.5vw 0.5vw 0 0;
+    padding: 0 0 0 0;
+    border-radius: 1vw;
+    height: 4vh;
+    width: 6.2vw;
+
+
+}
+.searchbutton a{
+    font-size: smaller;
+   color: black;
+   text-decoration: none;
+
+    padding: 0 0 0 0;
+}
+.searchbutton button:hover{
+    background-color:rgba(110, 109, 109, 0.077);
+}
+.searchbuttonend{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.searchbuttonend button{
+    background-color: white;
+    margin: 0vw 0.5vw 0 0;
+    padding: 0 0 0 0;
+    border-radius: 1vw;
+    height: 4vh;
+    width: 6.2vw;
+
+}
+.searchbuttonend button:hover{
+    background-color:rgba(110, 109, 109, 0.077);
+}
+.searchbuttonend a{
+    font-size: smaller;
+    color: black;
+   text-decoration: none;
+    padding: 0 0 0 0;
+}
+.lists{
+    margin: 6vh 0 0 0;
+    height: 85vh;
+    padding: 2vh 0vw 0 9vw;
+    
+}
+
+
+.lists p{
+ padding: 0 0 1.4vh 0;
+ font-size: smaller;
+ color: rgb(63, 62, 62);
+}
+.boxes5{
+ height: 95vh;
+ display: grid;
+ grid-template-columns: 0.5fr 2fr 2fr 2fr 2fr 2fr 0.9fr;
+}
+.Products0{
+    display: grid;
+    grid-template-rows: 1fr 8fr ;
+}
+.realproduct{
+    display: flex;
+    align-items: center;
+}
+.realproduct h3{
+    
+    font-weight: 500;
+ }
+.Products0 li{
+    margin: 1.6vh 0 0 0;
+    list-style: none;
+}
+.Products0 button{
+    padding: 0 8vw 0 0;
+    background-color: white;
+    border: none;
+}
+.Products0 button:hover{
+    
+   text-decoration: underline;
+   color: blue;
+    
+
+}
+.Products0 a{
+    color:rgb(63, 62, 62);
+    text-decoration: none;
+}
+.shopping{
+    display: grid;
+    grid-template-rows: 1fr 8fr ;
+}
+.shopping h3{
+    
+    font-weight: 500;
+ }
+.shopplease{
+    display: flex;
+    align-items: center;
+}
+.shopping li{
+    margin: 1.6vh 0 0 0;
+    list-style: none;
+}
+.shopping button{
+    padding: 0 2vw 0 0;
+    background-color: white;
+    border: none;
+}
+.shopping button:hover{
+    
+    text-decoration: underline;
+    color: blue;
+     
+ 
+ }
+ .shopping a{
+     color:rgb(63, 62, 62);
+     text-decoration: none;
+ }
+ .supporting{
+    display: grid;
+    grid-template-rows: 1fr 8fr 
+ }
+ .supportus{
+    display: flex;
+    align-items: center;
+ }
+ .supportus h3{
+    
+    font-weight: 500;
+ }
+ .supporting li{
+    margin: 1.6vh 0 0 0;
+    list-style: none;
+}
+.supporting  button{
+    padding: 0 2vw 0 0;
+    background-color: white;
+    border: none;
+}
+.supporting button:hover{
+    
+    text-decoration: underline;
+    color: blue;
+ }
+ .supporting a{
+     color:rgb(63, 62, 62);
+     text-decoration: none;
+ }
+ .account{
+    display: grid;
+    grid-template-rows: 1fr 8fr
+ }
+ .accounting{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+ }
+ .accounting h3{
+    
+    font-weight: 500;
+ }
+ .account li{
+    margin: 1.6vh 0 0 0;
+    list-style: none;
+}
+.account button{
+    padding: 0 2vw 0 0;
+    background-color: white;
+    border: none;
+}
+.account button:hover{
+    
+    text-decoration: underline;
+    color: blue;
+ }
+ .account a{
+     color:rgb(63, 62, 62);
+     text-decoration: none;
+ }
+ .account{
+    display: grid;
+    grid-template-rows: 1fr 8fr
+ }
+ .sustainablity{
+    display: flex;
+    align-items: center;
+ }
+ .sustainablity h3{
+    
+    font-weight: 500;
+ }
+ .sustainablity li{
+    margin: 1.6vh 0 0 0;
+    list-style: none;
+}
+.sustainablity button{
+    padding: 0 2vw 0 0;
+    background-color: white;
+    border: none;
+}
+.sustainablity button:hover{
+    
+    /* text-decoration: underline; */
+    color: blue;
+ }
+ .sustainablity a:hover{
+    color: blue;
+}
+ .sustainablity a{
+     color:rgb(63, 62, 62);
+     text-decoration: none;
+ }
+ .sustainablity{
+    display: grid;
+    grid-template-rows: 1fr 8fr
+ }
+ .footer{
+    height:18vh;
+    margin:  3vh 0 0 0 ;
+ }
+ 
+ .footer li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7vh;
+    list-style: none;
+    padding: 0 0 0 3vw;
+    color:rgb(63, 62, 62);
+
+} 
+.listing1
+{
+    margin: 0 0 3vh 0;
+}
+.listing2{
+    margin: 3vh 0 0 0;
+}
+ .guide{
+    height: 10vh;
+ }
+ 
